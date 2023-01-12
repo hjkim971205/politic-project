@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
-  <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <script src="js/scripts.js"></script>
-  <title>Voting</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/scripts.js"></script>
+    <title>Political Meter</title>
 </head>
+
+<body>
+    <form>
+        <label for="age">This is a test to see if you are liberal or conservative. What is your age?</label>
+        <input id="age" type="number">
+        <h1>This is a question will place you in a political meter!</h1>
+        <label for="answer">Question: This is a placeholder question for this project </label><input id="answer" type="text" name="answer">
+        <button type="submit">Submit!</button>
+    </form>
+
+    <div id="conservative" class="hidden">
+        <h1>You are conservative.</h1>
+    </div>
+    <div id="liberal" class="hidden">
+        <h1>You are liberal.</h1>
+    </div>
+</body>
